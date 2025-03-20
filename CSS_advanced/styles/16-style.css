@@ -55,9 +55,6 @@ a {
 .visually-hidden {
     display: none;
 }
-.card-category {
-    color: var(--color-primary);
-}
 .section-header{
     text-align: var(--section-header-align);
 }
@@ -70,6 +67,9 @@ a {
 .container {
     width: 960px;
     margin: 0 auto;
+}
+.card-category {
+    color: var(--color-primary);
 }
 .section-title{
     font-family: var(--font-family-title);
