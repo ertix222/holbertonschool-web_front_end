@@ -55,10 +55,13 @@ a {
 .visually-hidden {
     display: none;
 }
-.section-header{
+.card-category {
+    color: var(--color-primary);
+}
+.section-header {
     text-align: var(--section-header-align);
 }
-.section-tagline{
+.section-tagline {
     color: var(--color-primary);
     text-transform: var(--section-tagline-transform);
     font-family: var(--font-family-title);
@@ -68,10 +71,7 @@ a {
     width: 960px;
     margin: 0 auto;
 }
-.card-category {
-    color: var(--color-primary);
-}
-.section-title{
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
