@@ -107,9 +107,6 @@ a:active {
     background-color: var(--button-hover-background);
     text-decoration: var(--button-hover-text-decoration);
 }
-[data-section-theme="dark"] {
-    --button-color: var(--color-white);
-}
 .visually-hidden {
 	display: none;
 } 
@@ -206,6 +203,7 @@ h1, h2, h3, h4, h5, h6 {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
+	--button-color: var(--color-white);	
 }
 .footer-address {
     color: var(--text-color);
