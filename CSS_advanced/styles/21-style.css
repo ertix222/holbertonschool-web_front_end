@@ -196,6 +196,11 @@ ul.row {
     float: left;
 }
 
+[class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -212,7 +217,3 @@ ul.row {
     clear: both;
 }
 
-[class^="col-"] {
-    float: left;
-    padding: 0.5rem;
-}
